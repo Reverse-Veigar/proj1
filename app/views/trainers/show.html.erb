@@ -17,7 +17,7 @@
 		<% end %>
 	<% else %>
 		<% if pokemon.health > 0 %>
-			<% render pokemon %>
+			<p><b><%= pokemon.name %></b> || <b>LVL</b> <%= pokemon.level %> || <b>Health</b> <%= pokemon.health %> </p>
 	<% end %>
 	<% end %>
 <% end %>
